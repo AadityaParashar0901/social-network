@@ -1,0 +1,10 @@
+name: nexus
+app_id: da_K1EIZtMUQwq3
+owner: aadityaparashar0901
+package: '.'
+volumes:
+- name: nexus-files
+  mount: /app/posts
+scaling:
+  mode: single_concurrency
+kind: wasmer.io/App.v0
