@@ -475,7 +475,7 @@ body {
   align-items: center; /* For toggle switch alignment */
 }
 .settings-popup-content li:hover {
-  background: rgba(198, 172, 143, 0.1);
+  background: rgba(204, 178, 148, 0.1);
 }
 .settings-popup-content li:last-child {
   border-bottom: none;
@@ -506,7 +506,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 15px 0;
-  border-bottom: 1px solid rgba(198, 172, 143, 0.1);
+  border-bottom: 1px solid rgba(197, 176, 152, 0.1);
 }
 
 .privacy-option:last-child {
@@ -600,7 +600,7 @@ input:checked + .slider:before {
   max-width: 350px;
   text-align: center;
   font-family: 'Inter', sans-serif;
-  box-shadow: 0 25px 50px rgba(10, 9, 8, 0.3);
+  box-shadow: 0 25px 50px rgba(20, 18, 16, 0.3);
   border: 1px solid var(--post-border);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
