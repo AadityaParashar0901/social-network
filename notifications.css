@@ -28,7 +28,7 @@
 
 .mark-all-read-btn, .follow-requests-btn {
     background-color: var(--accent-blue);
-    color: white;
+    color: rgb(227, 158, 158);
     border: none;
     padding: 10px 20px;
     border-radius: 20px;
@@ -60,7 +60,7 @@
 }
 
 .notification-item.unread {
-    background-color: rgba(65, 90, 119, 0.1);
+    background-color: rgba(66, 100, 138, 0.1);
 }
 
 .notification-avatar {
@@ -106,7 +106,7 @@
 }
 
 .notification-icon.like {
-    background-color: #e74c3c;
+    background-color: #f04634;
     color: white;
 }
 
